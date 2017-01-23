@@ -15,11 +15,15 @@ Developed with Visual Studio 2015 Community
 ---
 
 ###Features
-|Feature|Description|
-|-------|-----------|
+|Feature|Description|Project|
+|-------|-----------|-------|
+|Dependency Injection | Demonstrates .NET CORE's builtin DI | [DependencyInjection](https://github.com/Apollo013/DotNetCore_Fundamentals/tree/master/DependencyInjection)|
+|Configuration| Demonstrates how to access the 'appsettings'json' file using IConfiguration| [ConfigurationManagement](https://github.com/Apollo013/DotNetCore_Fundamentals/tree/master/ConfigurationManagement)|
 
 ---
 
 ###Resources
 |Title|Author|Website|
 |-----|------|-------|
+|[Dependency injection into controllers](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/dependency-injection#accessing-settings-from-a-controller)||MSDN|
+|[Introduction to ASP.NET Core](https://dotnetcodr.com/2017/01/16/introduction-to-asp-net-core-part-1-anatomy-of-an-empty-web-project/)|Andras Nemes|dotnetcodr|
