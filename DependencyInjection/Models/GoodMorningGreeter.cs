@@ -8,6 +8,10 @@ namespace DependencyInjection.Models
 {
     public class GoodMorningGreeter : IGreeter
     {
+        /// <summary>
+        /// Simply generates a greeting string depending on which time of day it is
+        /// </summary>
+        /// <returns></returns>
         public string SendGreeting()
         {
             int now = DateTime.Now.Hour;
