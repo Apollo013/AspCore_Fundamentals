@@ -18,7 +18,7 @@ Developed with Visual Studio 2015 Community
 |Feature|Description|Project|
 |-------|-----------|-------|
 |Dependency Injection | Demonstrates .NET CORE's builtin DI | [DependencyInjection](https://github.com/Apollo013/DotNetCore_Fundamentals/tree/master/DependencyInjection)|
-|Configuration| Demonstrates how to access the 'appsettings'json' file using IConfiguration| [ConfigurationManagement](https://github.com/Apollo013/DotNetCore_Fundamentals/tree/master/ConfigurationManagement)|
+|Configuration| Demonstrates how to access the 'appsettings'json' file using IConfiguration. Also demonstrates DI and use of IOptions interface for passing a configuration section | [ConfigurationManagement](https://github.com/Apollo013/DotNetCore_Fundamentals/tree/master/ConfigurationManagement)|
 
 ---
 
