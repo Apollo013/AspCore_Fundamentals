@@ -10,7 +10,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{32FB60D0-4D1C-4A15-A428-BDBF929BBC6D}"
 	ProjectSection(SolutionItems) = preProject
 		GitCommands.txt = GitCommands.txt
+		global.json = global.json
 	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Middleware", "Middleware\Middleware.xproj", "{7472FBDF-EDA4-4058-BF50-FF5486BC347C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,8 +29,15 @@ Global
 		{E4C4075F-1839-4094-A7C6-5A6E9CDD1420}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4C4075F-1839-4094-A7C6-5A6E9CDD1420}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4C4075F-1839-4094-A7C6-5A6E9CDD1420}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7472FBDF-EDA4-4058-BF50-FF5486BC347C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7472FBDF-EDA4-4058-BF50-FF5486BC347C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7472FBDF-EDA4-4058-BF50-FF5486BC347C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7472FBDF-EDA4-4058-BF50-FF5486BC347C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7472FBDF-EDA4-4058-BF50-FF5486BC347C} = {32FB60D0-4D1C-4A15-A428-BDBF929BBC6D}
 	EndGlobalSection
 EndGlobal
