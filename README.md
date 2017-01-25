@@ -1,7 +1,5 @@
 # DotNetCore_Fundamentals 
 
----
-
 Developed with Visual Studio 2015 Community
 
 ---
