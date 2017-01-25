@@ -9,7 +9,7 @@ Developed with Visual Studio 2015 Community
 ###Techs
 |Tech|
 |----|
-|.NET Core|
+|ASP.NET Core|
 |C#|
 
 ---
