@@ -21,6 +21,7 @@ Developed with Visual Studio 2015 Community
 | | Loading of specific appsettings file depending on environment setting  | [Environment] (https://github.com/Apollo013/DotNetCore_Fundamentals/blob/master/Environment/Startup.cs)|
 |Middleware| Custom logging and terminal middleware using RequestDelegate's & 'IApplicationBuilder' extensions | [Middleware](https://github.com/Apollo013/DotNetCore_Fundamentals/tree/master/Middleware)|
 |Static Files| Demonstrates provision of static files (.js, css, etc) with use of app.UseDefaultFiles(), UseStaticFiles(), UseWelcomePage("/hello"), DefaultFilesOptions & StaticFileOptions | [StaticFiles](https://github.com/Apollo013/DotNetCore_Fundamentals/tree/master/StaticFiles)|
+|| Combining 'UseDefaultFiles()' & 'UseStaticFiles()' with 'app.UseFileServer()'|[StaticFiles](https://github.com/Apollo013/DotNetCore_Fundamentals/tree/master/StaticFiles)|
 
 ---
 
