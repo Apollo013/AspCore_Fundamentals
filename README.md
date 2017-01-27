@@ -18,8 +18,8 @@ Developed with Visual Studio 2015 Community
 |Dependency Injection | Demonstrates .NET CORE's builtin DI | [DependencyInjection](https://github.com/Apollo013/DotNetCore_Fundamentals/tree/master/DependencyInjection)|
 |Configuration| Demonstrates how to access the 'appsettings'json' file using IConfiguration.| [ConfigurationManagement](https://github.com/Apollo013/DotNetCore_Fundamentals/tree/master/ConfigurationManagement) |
 | |Also demonstrates DI and use of IOptions interface for passing a configuration section | |
-|Middleware| Custom logging and terminating middleware | [Middleware](https://github.com/Apollo013/DotNetCore_Fundamentals/tree/master/Middleware)|
-|Static Files| Demonstration of app.UseDefaultFiles(), UseStaticFiles(), UseWelcomePage("/hello"), DefaultFilesOptions & StaticFileOptions | [StaticFiles](https://github.com/Apollo013/DotNetCore_Fundamentals/tree/master/StaticFiles)|
+|Middleware| Custom logging and terminal middleware | [Middleware](https://github.com/Apollo013/DotNetCore_Fundamentals/tree/master/Middleware)|
+|Static Files| Demonstrates provision of static files (.js, css, etc) with use of app.UseDefaultFiles(), UseStaticFiles(), UseWelcomePage("/hello"), DefaultFilesOptions & StaticFileOptions | [StaticFiles](https://github.com/Apollo013/DotNetCore_Fundamentals/tree/master/StaticFiles)|
 ---
 
 ###Resources
