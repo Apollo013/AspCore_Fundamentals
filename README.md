@@ -18,7 +18,7 @@ Developed with Visual Studio 2015 Community
 |Dependency Injection | Demonstrates transient & singleton injection with .NET CORE's builtin DI | [DependencyInjection](https://github.com/Apollo013/DotNetCore_Fundamentals/tree/master/DependencyInjection)|
 || Injecting an Action delegate for configuring options (IOption interface)| [ConfigurationManagement](https://github.com/Apollo013/DotNetCore_Fundamentals/tree/master/ConfigurationManagement) |
 |Configuration| Demonstrates how to access the 'appsettings'json' file using IConfiguration.| [ConfigurationManagement](https://github.com/Apollo013/DotNetCore_Fundamentals/tree/master/ConfigurationManagement) |
-| | Loading of specific appsettings file depending on environment setting  | [Environment] (https://github.com/Apollo013/DotNetCore_Fundamentals/blob/master/Environment/Startup.cs)|
+| | Loading of specific appsettings file depending on environment setting  | [Environment](https://github.com/Apollo013/DotNetCore_Fundamentals/blob/master/Environment/Startup.cs)|
 |Middleware| Custom logging and terminal middleware using RequestDelegate's & 'IApplicationBuilder' extensions | [Middleware](https://github.com/Apollo013/DotNetCore_Fundamentals/tree/master/Middleware)|
 |Static Files| Demonstrates provision of static files (.js, css, images, html,  etc) | [StaticFiles](https://github.com/Apollo013/DotNetCore_Fundamentals/tree/master/StaticFiles)|
 || Setting default page to 'index.html' under root with 'UseDefaultFiles'|[StaticFiles](https://github.com/Apollo013/DotNetCore_Fundamentals/tree/master/StaticFiles)|
@@ -26,6 +26,7 @@ Developed with Visual Studio 2015 Community
 || Serving up images stored outside root with 'StaticFileOptions'|[StaticFiles](https://github.com/Apollo013/DotNetCore_Fundamentals/tree/master/StaticFiles)|
 || Combining 'UseDefaultFiles()' & 'UseStaticFiles()' with 'UseFileServer'|[StaticFiles](https://github.com/Apollo013/DotNetCore_Fundamentals/tree/master/StaticFiles)|
 || Setting default 'welcome' page under root with 'UseWelcomePage'|[StaticFiles](https://github.com/Apollo013/DotNetCore_Fundamentals/tree/master/StaticFiles)|
+|Muti-Environment| Demonstration of how to set up your environment for 'Development', 'Staging', 'Production' or a custom env.| [Environment](https://github.com/Apollo013/DotNetCore_Fundamentals/blob/master/Environment/Startup.cs)|
 
 ---
 
