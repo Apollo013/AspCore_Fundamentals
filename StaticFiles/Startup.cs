@@ -9,11 +9,13 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.FileProviders;
 using System.IO;
+using Microsoft.Extensions.Configuration;
 
 namespace StaticFiles
 {
     public class Startup
     {
+
         // This method gets called by the runtime. Use this method to add services to the container.
         // For more information on how to configure your application, visit http://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
@@ -26,7 +28,7 @@ namespace StaticFiles
             // Default to 'index.html' under 'wwwroot' directory
             app.UseDefaultFiles();
 
-            // Default to 'home.html' under 'wwwroot/views' directory ( *** REMOVE PREVIOUS CODE *** )
+            // Default to 'home.html' under 'wwwroot/views' directory ( *** REMOVE PREVIOUS LINE OF CODE *** )
             DefaultFilesOptions options = new DefaultFilesOptions();
             options.DefaultFileNames.Clear();
             options.DefaultFileNames.Add(@"views/home.html");
@@ -59,8 +61,9 @@ namespace StaticFiles
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello World!");
+                await context.Response.WriteAsync($"Hello World!");
             });
         }
+
     }
 }
