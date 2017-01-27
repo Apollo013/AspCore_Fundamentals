@@ -16,6 +16,7 @@ Developed with Visual Studio 2015 Community
 |Feature|Description|Project|
 |-------|-----------|-------|
 |Dependency Injection | Demonstrates transient & singleton injection with .NET CORE's builtin DI | [DependencyInjection](https://github.com/Apollo013/DotNetCore_Fundamentals/tree/master/DependencyInjection)|
+|| Injecting an Action delegate for configuring options (IOption interface)| [ConfigurationManagement](https://github.com/Apollo013/DotNetCore_Fundamentals/tree/master/ConfigurationManagement) |
 |Configuration| Demonstrates how to access the 'appsettings'json' file using IConfiguration.| [ConfigurationManagement](https://github.com/Apollo013/DotNetCore_Fundamentals/tree/master/ConfigurationManagement) |
 | |Also demonstrates DI and use of IOptions interface for passing a configuration section | |
 |Middleware| Custom logging and terminal middleware using Request Delegates| [Middleware](https://github.com/Apollo013/DotNetCore_Fundamentals/tree/master/Middleware)|
