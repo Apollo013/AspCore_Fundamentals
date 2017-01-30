@@ -37,7 +37,7 @@ namespace StaticFiles
             // Serve up static files under 'wwwroot' directory
             app.UseStaticFiles();
 
-            // Serve up static files from images folder under 'root' directory
+            // Serve up static files from images folder outside of 'root' directory
             app.UseStaticFiles(new StaticFileOptions()
             {
                 FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(),@"images")),

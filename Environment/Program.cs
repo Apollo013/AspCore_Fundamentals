@@ -16,6 +16,7 @@ namespace Environment
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseIISIntegration()
                 .UseStartup<Startup>()
+                .UseEnvironment("Development")
                 .Build();
 
             host.Run();
