@@ -27,6 +27,7 @@ Developed with Visual Studio 2015 Community
 || Combining 'UseDefaultFiles()' & 'UseStaticFiles()' with 'UseFileServer'|[StaticFiles](https://github.com/Apollo013/DotNetCore_Fundamentals/tree/master/StaticFiles)|
 || Setting default 'welcome' page under root with 'UseWelcomePage'|[StaticFiles](https://github.com/Apollo013/DotNetCore_Fundamentals/tree/master/StaticFiles)|
 || Added file caching for 1 hr to middleware |[StaticFiles](https://github.com/Apollo013/DotNetCore_Fundamentals/tree/master/StaticFiles)|
+|| Enabled Directory Browsing |[StaticFiles](https://github.com/Apollo013/DotNetCore_Fundamentals/tree/master/StaticFiles)|
 |Muti-Environment| Demonstration of how to set up your environment for 'Development', 'Staging', 'Production' or a custom env.| [Environment](https://github.com/Apollo013/DotNetCore_Fundamentals/blob/master/Environment/Startup.cs)|
 |Hosting||[Hosting](https://github.com/Apollo013/DotNetCore_Fundamentals/tree/master/Hosting)|
 |Logging|Demonstrate various logging features|[Logging](https://github.com/Apollo013/DotNetCore_Fundamentals/blob/master/Logging)|
