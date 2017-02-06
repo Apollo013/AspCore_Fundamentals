@@ -20,7 +20,7 @@ namespace StaticFiles
         // For more information on how to configure your application, visit http://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-            
+            services.AddDirectoryBrowser();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -51,6 +51,13 @@ namespace StaticFiles
                 }
             });
 
+            // Allow the user to view the directory & files for images
+            app.UseDirectoryBrowser(new DirectoryBrowserOptions()
+            {
+                FileProvider = new PhysicalFileProvider(
+                Path.Combine(Directory.GetCurrentDirectory(), "images")),
+                RequestPath = new PathString("/img")
+            });
 
 
             // This combines UseDefaultFiles() and UseStaticFiles()
