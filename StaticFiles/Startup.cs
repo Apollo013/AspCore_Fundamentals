@@ -20,6 +20,7 @@ namespace StaticFiles
         // For more information on how to configure your application, visit http://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -28,7 +29,7 @@ namespace StaticFiles
             // Default to 'index.html' under 'wwwroot' directory
             app.UseDefaultFiles();
 
-            // Default to 'home.html' under 'wwwroot/views' directory ( *** REMOVE PREVIOUS LINE OF CODE *** )
+            // Default to 'home.html' under 'wwwroot/views' directory ( *** COMMENT-OUT PREVIOUS LINE OF CODE *** )
             DefaultFilesOptions options = new DefaultFilesOptions();
             options.DefaultFileNames.Clear();
             options.DefaultFileNames.Add(@"views/home.html");
@@ -41,8 +42,15 @@ namespace StaticFiles
             app.UseStaticFiles(new StaticFileOptions()
             {
                 FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(),@"images")),
-                RequestPath = new PathString("/img")
+                RequestPath = new PathString("/img"),
+
+                // Make static files publicly cacheable for 1 hr
+                OnPrepareResponse = ctx =>
+                {
+                    ctx.Context.Response.Headers.Append("Cache-Control", "public,max-age=3600");
+                }
             });
+
 
 
             // This combines UseDefaultFiles() and UseStaticFiles()

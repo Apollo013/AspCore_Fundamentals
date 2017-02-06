@@ -33,6 +33,7 @@ namespace Logging
                 })
                 .AddConsole(LogLevel.Warning) // Ignore below warning level
                 .AddDebug();
+                //.AddEventSourceLogger();
             _ILogger = loggerFactory.CreateLogger<Startup>();
 
 
